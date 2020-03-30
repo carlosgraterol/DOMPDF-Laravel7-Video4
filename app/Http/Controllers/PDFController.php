@@ -36,7 +36,5 @@ class PDFController extends Controller
     	Storage::disk('public')->put(date('Y-m-d-H-i-s').'-productoshorizontal', $pdf);
 
     	return redirect()->back()->with('status', '¡PDF guardado correctamente!');
-
     }
-
 }

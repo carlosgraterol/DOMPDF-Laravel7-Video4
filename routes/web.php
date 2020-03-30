@@ -24,5 +24,3 @@ Route::get('/pdf', 'PDFController@PDF')->name('decargarPDF');
 Route::get('/pdfproductos', 'PDFController@PDFProductos')->name('decargarPDFProductos');
 Route::get('/pdfproductoshorizontal', 'PDFController@PDFProductosHorizontal')->name('decargarPDFProductosHorizontal');
 Route::get('/guardarpdf', 'PDFController@guardarpdf')->name('guardarpdf');
-
-Route::get('/email', 'EmailController@EnviarCorreo')->name('email');
