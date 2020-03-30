@@ -32,9 +32,11 @@ class PDFController extends Controller
     public function guardarpdf(){
 
     	$productos = Producto::all();
-    	$pdf = PDF::loadView('productoshorizontal', compact('productos'))->output();
-    	Storage::disk('public')->put(date('Y-m-d-H-i-s').'-productos.pdf', $pdf);
+    	$pdf = PDF::loadView('productoshorizontal', compact('productos'));
+    	Storage::disk('public')->put(date('Y-m-d-H-i-s').'-productoshorizontal', $pdf);
 
-    	return redirect()->back()->with('status','¡PDF Productos guardado con éxito!');
+    	return redirect()->back()->with('status', '¡PDF guardado correctamente!');
+
     }
+
 }

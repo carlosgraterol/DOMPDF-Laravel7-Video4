@@ -15,8 +15,8 @@
                     @endif
                     <a href="{{ route('decargarPDF') }}" target="_blank" class="btn btn-sm btn-primary">Imprimir PDF</a>
                     <a href="{{ route('decargarPDFProductos') }}" class="btn btn-sm btn-success">Imprimir PDF Productos</a>
-                    <a href="{{ route('decargarPDFProductosHorizontal') }}" target="_blank" class="btn btn-sm btn-danger">Imprimir PDF Productos Horizontal </a>
-                    <a href="{{ route('guardarpdf') }}" class="btn btn-sm btn-dark">Guardar PDF </a>
+                    <a href="{{ route('decargarPDFProductosHorizontal') }}" target="_blank" class="btn btn-sm btn-danger">Imprimir PDF Productos Horizontal</a>
+                    <a href="{{ route('guardarpdf') }}" class="btn btn-sm btn-dark">Guardar PDF</a>
                     <hr>
                     <h5 style="text-align: center"><strong>TABLA DE PRODUCTOS</strong></h5>
                     <table class="table table-striped text-center">
