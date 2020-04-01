@@ -41,11 +41,12 @@
     <footer>
         <p><strong>SUSCRIBETE - COMENTA - COMPARTE</strong></p>
     </footer>
+
     <script type="text/php">
         if ( isset($pdf) ) {
             $pdf->page_script('
                 $font = $fontMetrics->get_font("Arial, Helvetica, sans-serif", "normal");
-                $pdf->text(370, 570, "Pág $PAGE_NUM de $PAGE_COUNT", $font, 10);
+                $pdf->text(400, 570, "$PAGE_NUM", $font, 10);
             ');
         }
     </script>

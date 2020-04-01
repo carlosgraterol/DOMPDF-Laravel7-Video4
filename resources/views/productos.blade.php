@@ -41,6 +41,7 @@
     <footer>
         <p><strong>SUSCRIBETE - COMENTA - COMPARTE</strong></p>
     </footer>
+
     <script type="text/php">
         if ( isset($pdf) ) {
             $pdf->page_script('

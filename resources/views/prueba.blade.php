@@ -11,7 +11,6 @@
 	</style>
 </head>
 <body>
-	<p style="text-align: center; font-size: 20px">TABLAS</p>
 	<table class="table">
 	  <thead class="thead-dark">
 	    <tr>
@@ -73,25 +72,18 @@
 	    </tr>
 	  </tbody>
 	</table>
-
 	<div class="page-break"></div>
+	<h1>Examples</h1>
 
-	<p style="text-align: center; font-size: 20px">TEXTO</p>
+	<p>Due to the widespread use of tables across third-party widgets like calendars and date pickers, we’ve designed our tables to be opt-in. Just add the base class .table to any <table>, then extend with custom styles or our various included modifier classes.</p>
 
-	<h3>Community</h3>
-	<p>Stay up to date on the development of Bootstrap and reach out to the community with these helpful resources.</p>
-	<p>Follow @getbootstrap on Twitter.
-	Read and subscribe to The Official Bootstrap Blog.
-	Join the official Slack room.</p>
-	<p>Chat with fellow Bootstrappers in IRC. On the irc.freenode.net server, in the ##bootstrap channel.
-	Implementation help may be found at Stack Overflow (tagged bootstrap-4).
-	Developers should use the keyword bootstrap on packages which modify or add to the functionality of Bootstrap when distributing through npm or similar delivery mechanisms for maximum discoverability.</p>
+	<p>Using the most basic table markup, here’s how .table-based tables look in Bootstrap. All table styles are inherited in Bootstrap 4, meaning any nested tables will be styled in the same manner as the parent.</p>
 
 	<script type="text/php">
         if ( isset($pdf) ) {
             $pdf->page_script('
                 $font = $fontMetrics->get_font("Arial, Helvetica, sans-serif", "normal");
-                $pdf->text(270, 780, "Pág $PAGE_NUM de $PAGE_COUNT", $font, 10);
+                $pdf->text(270, 780, "$PAGE_NUM", $font, 10);
             ');
         }
 	</script>
