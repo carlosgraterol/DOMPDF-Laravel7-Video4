@@ -13,6 +13,8 @@
     </header>
     <main>
         <h5 style="text-align: center"><strong>TABLA DE PRODUCTOS</strong></h5>
+        <p class="text-center">Logo de mi empresa</p>
+        <p class="text-center"><img src="{{ asset('img/logo.jpg') }}" width="200px" height="200px"></p>
         <table class="table table-striped text-center">
             <thead>
                 <tr>
